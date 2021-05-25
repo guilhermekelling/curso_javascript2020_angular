@@ -1,0 +1,17 @@
+Anotações e comandos Angular
+============================
+Interface de comando de linha: criar componentes/serviços....
+npm i -g @angular/cli
+
+Criar projeto usando o cli do angular(opção minimal para criar um projeto com os arquivos mínimos) 
+ng new frontend --minimal
+opções: rotas / CSS
+
+Instalar o material design(padrão de layout desenvolvido pelo Google)
+ng add @angular/material
+
+Criar um componente
+ng g c components/template/nav
+
+Criar um serviço
+ng g s services/product
